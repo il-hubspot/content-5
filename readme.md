@@ -3,11 +3,11 @@
 
 The Call of Action 1 header module can be easily added to your existing HubSpot website and allows you create a multi section Header with various options to enhace with buttons, graphics, and backgrounds.
 
-### The HEADER 3 module demo can be visited here:
+### SUF HEADER Call to Action 1 module demo can be visited here:
 
 https://w.inboundlabs.co/header234demo
 
-### The HEADER 2 module is FREE and is part of the Startup Framework FREE and PAID packages:
+### The SUF HEADER Call to Action 1 module is FREE and is part of the Startup Framework FREE and PAID packages:
 
 https://marketplace.hubspot.com/products/inboundlabs/startup-framework-marketplace
 
