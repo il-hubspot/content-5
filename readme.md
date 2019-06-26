@@ -4,15 +4,15 @@
 ---
 The Header module can be easily added to your existing HubSpot website and allows you create a centered header with text and custom colors
 
-## The HEADER 3 module demo can be visited here:
+# The HEADER 3 module demo can be visited here:
 
 https://w.inboundlabs.co/header234demo
 
-## The HEADER 2 module is FREE and is part of the Startup Framework FREE and PAID packages:
+# The HEADER 2 module is FREE and is part of the Startup Framework FREE and PAID packages:
 
 https://marketplace.hubspot.com/products/inboundlabs/startup-framework-marketplace
 
-## Have Questions?
+# Have Questions?
 
 If you have questions, please email me at github (at) inboundlabs.co
 
