@@ -1,33 +1,20 @@
 {# Please do NOT modify this module/file because your changes may be overwritten by future installation from BRiX Editor. To customize this, please clone this module/file and work from there. #}
 
-{{ require_css("//cdn2.hubspot.net/hubfs/346178/designmodo/ui-kit/ui-kit-header/css/ui-kit-styles.css") }}
-<!-- header-14 -->
-<section class="header-14-sub header-14-sub-v2" style="background-color: {{ module.background_color }};">
-	<div class="background" style="background-image: url('{{ module.background_image.src }}'); opacity: {{ module.background_opacity }};">&nbsp;</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-8 col-sm-offset-2">
-				<div class="header-14">
-					<span class="{{ module.icon }}" style="color: {{ module.icon_color }};"></span>
-					<div style="color: {{ module.preheader_color }};">{{ module.preheader }}</div>
-				</div>
-				<div class="hero-unit">
-                    <h1 style="border-color: {{ module.header_color }}; color: {{ module.header_color }};">{{ module.header }}</h1>
-				</div>
-				{{ module.text }}
-				<div class="row">
-					<div class="subscribe-form col-sm-8 col-sm-offset-2">
+{{ require_css("//cdn2.hubspot.net/hubfs/346178/designmodo/ui-kit/ui-kit-content/css/ui-kit-styles.css") }}      
+<!-- content-13 -->
+<section class="content-13 content-13-v2 subscribe-form" style="background-color: {{ module.background_color.color }};">
+    <div class="container">
+        <div class="row js-form-btn-color" data-form-btn-color="{{ module.form_button_color.color }}" data-form-btn-hover-color="{{ module.form_button_hover_color.color }}">
+          {% if module.form %}
             {% form
-              form_key="5222b5b3-ac05-6393-7dda-ee7963aa5df5"
-              form_to_use="{{ module.form_field.form_id }}"
-              response_response_type="{{ module.form_field.response_type }}"
-              response_message="{{ module.form_field.message }}"
-              response_redirect_id="{{ module.form_field.redirect_id }}"
-              response_redirect_url="{{module.form_field.redirect_url}}"
+              form_key="d1144b5a-132a-8c47-fc9a-8e7dfe61db1c"
+              form_to_use="{{ module.form.form_id }}"
+              response_response_type="{{ module.form.response_type }}"
+              response_message="{{ module.form.message }}"
+              response_redirect_id="{{ module.form.redirect_id }}"
+              response_redirect_url="{{module.form.redirect_url}}"
             %}
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+          {% endif %}
+        </div>
+    </div>
 </section>
