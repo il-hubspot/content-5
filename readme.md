@@ -1,13 +1,13 @@
 ![HubSpot](https://cdn2.hubspot.net/hubfs/327485/HubSpot%20Wordmark%20-%20Full%20Color.png "HubSpot")
-## Form 1
+## Form 2
 
-This form lets you add a fancy basic submission form.  This form has background image control, text control, link control, form destination and menu options.
+This form lets you adds a basic minimalistic form with button. The form allows you to set background color, font color and action after pressing the button. Including redirecting and displaying a message.  
 
-### Form 1 module demo can be visited here:
+### Form 2 module demo can be visited here:
 
-w.inboundlabs.co/form-1-and-content-2
+w.inboundlabs.co/feat6-form2
 
-### Form 1 module is FREE and is part of the Startup Framework FREE and PAID packages:
+### Form 2 module is FREE and is part of the Startup Framework FREE and PAID packages:
 
 https://marketplace.hubspot.com/products/inboundlabs/startup-framework-marketplace
 
