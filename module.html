@@ -1,20 +1,19 @@
 {# Please do NOT modify this module/file because your changes may be overwritten by future installation from BRiX Editor. To customize this, please clone this module/file and work from there. #}
 
 {{ require_css("//cdn2.hubspot.net/hubfs/346178/designmodo/ui-kit/ui-kit-content/css/ui-kit-styles.css") }}      
-<!-- content-13 -->
-<section class="content-13 content-13-v2 subscribe-form" style="background-color: {{ module.background_color.color }};">
-    <div class="container">
-        <div class="row js-form-btn-color" data-form-btn-color="{{ module.form_button_color.color }}" data-form-btn-hover-color="{{ module.form_button_hover_color.color }}">
-          {% if module.form %}
-            {% form
-              form_key="d1144b5a-132a-8c47-fc9a-8e7dfe61db1c"
-              form_to_use="{{ module.form.form_id }}"
-              response_response_type="{{ module.form.response_type }}"
-              response_message="{{ module.form.message }}"
-              response_redirect_id="{{ module.form.redirect_id }}"
-              response_redirect_url="{{module.form.redirect_url}}"
-            %}
-          {% endif %}
+<!-- content-16 -->
+<section class="content-16 content-16-v2 v-center" style="background-color: {{ module.background_color.color }};">
+  	<div class="background" style="background-image: url({{ module.background_image.src }}); opacity: {{ module.background_opacity }};"></div>
+    <div>
+        <div class="container">
+            <h3 style="color: {{ module.header_color.color }};">
+                {% if module.header_image.src %}
+                  <img src="{{ module.header_image.src }}" alt="{{ module.header_image.alt }}" width="{{ module.header_image.width }}" height="{{ module.header_image.height }}">
+                {% endif %}
+                {{ module.header }}
+            </h3>
+            <p class="lead" style="color: {{ module.subheader_color.color }};">{{ module.subheader }}</p>
         </div>
-    </div>
+    </div><a class="control-btn fui-arrow-down" href="#" style="background-color: {{ module.arrow_down_background_color.color }}; color: {{ module.arrow_down_color.color }}
+;"></a>
 </section>
