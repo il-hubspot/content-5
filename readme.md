@@ -1,13 +1,13 @@
 ![HubSpot](https://cdn2.hubspot.net/hubfs/327485/HubSpot%20Wordmark%20-%20Full%20Color.png "HubSpot")
-## Form 2
+## Content 5
 
-This form lets you adds a basic minimalistic form with button. The form allows you to set background color, font color and action after pressing the button. Including redirecting and displaying a message.  
+This Content module show a header text with images and background. The module allows you to customize the colors of text and add images for background and logo/header.  
 
-### Form 2 module demo can be visited here:
+### Content 5 module demo can be visited here:
 
-w.inboundlabs.co/feat6-form2
+w.inboundlabs.co/action6-content5-demo
 
-### Form 2 module is FREE and is part of the Startup Framework FREE and PAID packages:
+### Content 5 module is FREE and is part of the Startup Framework FREE and PAID packages:
 
 https://marketplace.hubspot.com/products/inboundlabs/startup-framework-marketplace
 
